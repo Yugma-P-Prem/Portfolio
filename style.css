@@ -1,0 +1,57 @@
+/* Create a new file named style.css */
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background: #0f172a;
+color: #e5e7eb;
+}
+
+
+header {
+background: #020617;
+padding: 20px;
+text-align: center;
+}
+
+
+header h1 {
+margin: 0;
+color: #38bdf8;
+}
+
+
+nav a {
+margin: 0 10px;
+color: #e5e7eb;
+text-decoration: none;
+}
+section {
+padding: 40px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+
+h2 {
+color: #38bdf8;
+}
+
+
+ul {
+list-style: square;
+}
+
+
+.card {
+background: #020617;
+padding: 20px;
+border-radius: 8px;
+}
+
+
+footer {
+text-align: center;
+padding: 15px;
+background: #020617;
+color: #94a3b8;
+}
