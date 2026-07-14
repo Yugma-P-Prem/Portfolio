@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yugma P Prem | SOC Analyst Portfolio</title>
+  <meta name="description" content="Cybersecurity portfolio of Yugma P Prem — SOC lab work, log monitoring, alert triage, and incident documentation."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://drive.google.com/file/d/1m-fPwZL4LLG0yR6opUkg3GkzdokjdsdQ/view?usp=drive_link" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="interests.css">
+</head>
+<body>
+ <div class="mobile-warning">
+  <span id="mobileWarningText"></span>
+</div>
+
+  <!-- Opening overlay -->
+  <div id="intro-overlay">
+    <div class="boot-text"></div>
+  </div>
+  <!-- Background -->
+  <div class="bg"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="light-lines"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#hero">YP</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#training" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://drive.google.com/file/d/19_euOoodQocgBWM9iYCub-ORJwCc5ksq/view?usp=drive_link" class="btn btn-outline" target="_blank">Resume</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu"></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="section hero">
+    <div class="container hero-wrap">
+      <div class="hero-badge">SOC Analyst • Log Monitoring • Incident Response</div>
+      <h1 class="hero-title">
+        <span class="stroke">Yugma</span> P Prem
+      </h1>
+      <p class="hero-sub">
+        MCA graduate with hands-on SOC lab experience in log monitoring, alert triage, and incident documentation using Elastic SIEM, Wireshark, and Nmap. EC-Council Certified SOC Analyst seeking a Junior SOC Analyst role.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="#about" class="btn btn-ghost">About me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num" data-target="2">0</div>
+          <div class="stat-label">SOC / Cybersecurity certifications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" data-target="2">0</div>
+          <div class="stat-label">End-to-end SOC lab projects built (Elastic SIEM + Splunk)</div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">Scroll</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container about-wrap">
+      <div class="logo-box">
+      <div class="logo-box">
+      <img src="images/yugma.png" class="profile-img" alt="Profile">
+</div>
+      </div>
+
+      <div class="about-text">
+        <h1 class="dynamic-fade">About me</h1>
+        <p class="lead">
+          I'm an MCA graduate with a strong passion for Cyber Security and Security Operations. My primary focus is on threat detection, log analysis, incident investigation, and SIEM-based security monitoring through hands-on learning and practical lab environments.
+          <br><br>
+         I have built a Security Operations Center (SOC) lab using Splunk Enterprise, Kali Linux, Ubuntu, and Windows to simulate real-world cyber attacks, collect and analyze security logs, develop SPL detection rules, configure alerts, and create security dashboards. My projects include detecting SSH brute-force attacks, monitoring privilege escalation activities, analyzing authentication events, and mapping detections to the MITRE ATT&CK framework.
+          <br><br>
+         In addition to SIEM engineering, I have interested with Linux administration, Python scripting, Wireshark, Nmap, Hydra, Burp Suite, Metasploit, Git, VirtualBox, and log analysis. I continuously expand my knowledge by building practical cybersecurity projects that strengthen my understanding of incident detection and response.
+         <br><br>
+         I'm passionate about Blue Team operations, detection engineering, threat hunting, and continuous improvement in security monitoring. My goal is to contribute to a Security Operations Center where I can apply my technical skills, learn from experienced professionals, and help defend organizations against evolving cyber threats.
+        </p>
+        <ul class="about-list">
+          <li><strong>Education:</strong> MCA, Ilahia College of Engineering and Technology (2023–2025)</li>
+          <li><strong>Focus areas:</strong> Log monitoring & alert investigation, incident triage & escalation, SOC documentation & reporting, MITRE ATT&CK (TTPs), OWASP Top 10 fundamentals</li>
+          <li><strong>Location:</strong> Thrissur, Kerala, India</li>
+        </ul>
+        <div class="about-actions">
+          <a href="tel:+916282452191" class="btn btn-outline">+91-6282452191</a>
+          <a href="mailto:\\yugmapprem@gmail.com" class="btn btn-outline">Email me</a>
+          <a href="https://www.linkedin.com/in/yugma-p-prem-6656b128a" target="_blank" rel="noopener" class="btn btn-primary">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- Education Section -->
+  <div class="toggle-academics-wrap">
+    <button id="toggle-academics" class="button-accent">
+      🎓 View Education
+    </button>
+  </div>
+
+  <section id="academics-section" class="section academics collapsed">
+    <div class="container">
+      <h2 class="dynamic-fade">Education</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>🎓 MCA</h3>
+          <p>Master of Computer Applications<br>
+          Ilahia College of Engineering and Technology<br>
+          2023 – 2025 · CGPA: 8.32</p>
+        </div>
+
+        <div class="card">
+          <h3>📘 B.Sc. Mathematics</h3>
+          <p>Sree Narayana College<br>
+          2020 – 2023 · CGPA: 6.58</p>
+        </div>
+
+        <div class="card">
+          <h3>🧭 Frameworks & Concepts</h3>
+          <ul>
+            <li>MITRE ATT&CK (TTPs)</li>
+            <li>OWASP Top 10 (foundational)</li>
+            <li>Incident Triage & Escalation</li>
+            <li>Log Monitoring & Alert Investigation</li>
+            <li>SOC Documentation & Reporting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="sec-head">
+        <h1 class="dynamic-fade">Featured projects</h1>
+      </div>
+
+      <div class="cards">
+        <!-- Project 1 -->
+        <article class="card reveal" data-modal="modal-1" tabindex="0" aria-label="Elastic SIEM SSH Brute-Force Detection">
+          <div>
+            <div class="card-top">
+              <span class="chip">Blue Team</span>
+              <span class="chip">SIEM</span>
+              <span class="chip chip-alt">Incident Response</span>
+            </div>
+            <h3>Elastic SIEM: SSH Brute-Force Detection & Response</h3>
+            <p>
+              Built a self-contained SOC lab (Ubuntu target, Kali Linux attacker) in VirtualBox to simulate and detect SSH brute-force attacks end-to-end. Monitored SSH authentication logs in real time via Kibana, triaged repeated failed login attempts, and configured custom Elastic SIEM detection rules mapped to MITRE ATT&CK technique T1110 (Brute Force).
+            </p>
+          </div>
+          <div>
+            <div class="meta">
+              <span>Elastic SIEM</span><span>Kibana</span><span>VirtualBox</span><span>Kali Linux</span><span>Ubuntu</span><span>MITRE ATT&CK</span>
+            </div>
+            <button class="view-details-btn">View Details</button>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card reveal" data-modal="modal-2" tabindex="0" aria-label="Splunk SOC Threat Detection and Incident Response Lab">
+          <div>
+            <div class="card-top">
+              <span class="chip">Blue Team</span>
+              <span class="chip">SIEM</span>
+              <span class="chip chip-alt">SOC</span>
+            </div>
+            <h3>Splunk SOC Threat Detection & Incident Response Lab</h3>
+            <p>
+              Built a hands-on SOC lab with Splunk Enterprise to simulate cyber attacks, detect security threats, investigate incidents, and visualize security events through custom dashboards and alerts, covering SSH brute-force, Nmap reconnaissance, and privilege escalation.
+            </p>
+          </div>
+          <div>
+            <div class="meta">
+              <span>Splunk Enterprise</span><span>Splunk Universal Forwarder</span><span>Ubuntu Server</span><span>Kali Linux</span><span>VirtualBox</span><span>Python</span>
+            </div>
+            <button class="view-details-btn">View Details</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="dynamic-fade">Skills & Tools</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>🛡 Security Tools</h3>
+          <ul>
+            <li>SIEM & SOC Tools: Splunk Enterprise, ElasticSearch</li>
+            <li>Offensive Security: Kali Linux, Kali Purple, Metasploit, Nmap, Nessus, Atomic Red Team</li>
+            <li>Network Analysis & Virtualization: Wireshark, tcpdump, Cisco Packet Tracer, Ngrok, VirtualBox, VMware</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>💻 Operating Systems</h3>
+          <ul>
+            <li>Linux (Ubuntu, Kali Linux)</li>
+            <li>Windows</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>🌐 Networking & Infrastructure</h3>
+          <ul>
+            <li>DNS</li>
+            <li>IP Addressing</li>
+            <li>HTTP/HTTPS</li>
+            <li>Basic Network Security Fundamentals</li>
+            <li>OSI / TCP-IP</li>
+            <li>DHCP & NAT</li>
+             <li>Packet analysis</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3> Security Skills</h3>
+          <ul>
+            <li>Alert Triage/li>
+            <li>Vulnerability Assessment</li>
+            <li>Log Analysis</li>
+            <li>IOC Analysis & Enrichment</li>
+            <li>IDS/IPS</li>
+            <li>SOC reporting</li>
+             <li>MITRE ATT&CK</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>🧭 Frameworks & Concepts</h3>
+          <ul>
+            <li>MITRE ATT&CK (TTPs)</li>
+            <li>OWASP Top 10 (foundational)</li>
+            <li>Incident Triage & Escalation</li>
+            <li>Log Monitoring & Alert Investigation</li>
+            <li>SOC Documentation & Reporting</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>⚙ Scripting</h3>
+          <ul>
+            <li>Python (basics)</li>
+            <li>Bash / Shell scripting basics</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="training" class="section certifications">
+    <div class="container">
+      <h2 class="dynamic-fade">Certifications</h2>
+      <ul class="cert-list">
+        <li>
+          🏆 <strong>Certified SOC Analyst (CSA)</strong> — EC-Council
+        </li>
+        <li>
+          🛡 <strong>Certified IT Infrastructure Cyber SOC Analyst</strong> — Red Team Hacker Academy
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container contact-wrap">
+      <div>
+        <h2 class="typing-effect">Let's connect</h2>
+        <p class="role-banner">
+          Seeking roles in <strong>Junior SOC Analyst,SOC Trainee <strong>log monitoring</strong>, <strong>alert triage</strong>, and <strong>incident documentation</strong>.
+        </p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:yugmapprem@gmail.com" class="highlight">yugmapprem@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+916282452191" class="highlight">+91-6282452191</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yugma-p-prem-6656b128a" class="highlight" target="_blank" rel="noopener">Yugma P Prem</a></li>
+          <li><strong>Location:</strong> Thrissur, Kerala, India</li>
+        </ul>
+      </div>
+      
+     
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Yugma P Prem. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#hero">Top</a>
+        <a href="https://drive.google.com/file/d/1m-fPwZL4LLG0yR6opUkg3GkzdokjdsdQ/view?usp=drive_link" target="_blank">Resume</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal-1" class="modal" role="dialog" aria-modal="true" aria-labelledby="m1-title" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close">×</button>
+      <h3 id="m1-title">🛡️ Elastic SIEM: SSH Brute-Force Detection & Response</h3>
+      <p class="modal-intro">
+        A self-contained SOC lab simulating and detecting SSH brute-force attacks end-to-end, covering the full detection lifecycle: monitor → triage → escalate → document.
+      </p>
+
+      <div class="modal-grid">
+        <div class="modal-content">
+          <div class="modal-card">
+            <h4>🎯 Focus</h4>
+            <ul>
+              <li>Building a self-contained SOC lab (Ubuntu target, Kali Linux attacker) in VirtualBox</li>
+              <li>Simulating and detecting SSH brute-force attacks end-to-end</li>
+              <li>Monitoring SSH authentication logs in real time via Kibana</li>
+              <li>Configuring custom Elastic SIEM detection rules</li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h4>🛠 Tools</h4>
+            <ul>
+              <li>Elastic SIEM (Kibana)</li>
+              <li>VirtualBox</li>
+              <li>Ubuntu (target)</li>
+              <li>Kali Linux (attacker)</li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h4>📋 Methods</h4>
+            <ul>
+              <li>Monitored SSH authentication logs in real time via Kibana</li>
+              <li>Triaged repeated failed login attempts and classified severity based on attempt frequency and source IP</li>
+              <li>Configured custom Elastic SIEM detection rules to flag brute-force login behavior, mapped to MITRE ATT&CK technique T1110 (Brute Force)</li>
+              <li>Documented incident findings, alert triggers, and remediation steps in a structured incident report, simulating SOC ticketing and analyst handoff procedures</li>
+            </ul>
+          </div>
+
+          <div class="modal-card">
+            <h4>📌 Output</h4>
+            <ul>
+              <li>Working end-to-end detection lifecycle: monitor → triage → escalate → document, using the Elastic Stack</li>
+              <li>Custom detection rule flagging SSH brute-force behavior mapped to MITRE ATT&CK T1110</li>
+              <li>Structured incident report documenting findings, alert triggers, and remediation steps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 modal -->
+  <div id="modal-2" class="modal" role="dialog" aria-modal="true" aria-labelledby="m2-title" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close">×</button>
+      <h3 id="m2-title">🛡️ Splunk SOC Threat Detection & Incident Response Lab</h3>
+      <p class="modal-intro">
+        A hands-on Security Operations Center (SOC) lab built with Splunk Enterprise to simulate cyber attacks, detect security threats, investigate incidents, and visualize security events through custom dashboards and alerts.
+      </p>
+      <div class="modal-grid">
+        <div class="modal-content">
+          <div class="modal-card">
+            <h4>🎯 Focus</h4>
+            <ul>
+              <li>Built a SOC lab using Splunk Enterprise, Ubuntu, Kali Linux, and Windows.</li>
+              <li>Collected and analyzed Windows and Linux security logs.</li>
+              <li>Simulated real-world attacks including SSH brute-force, Nmap reconnaissance, and privilege escalation.</li>
+              <li>Developed SPL queries, alerts, and dashboards for continuous security monitoring.</li>
+            </ul>
+          </div>
+          <div class="modal-card">
+            <h4>🛠 Tools</h4>
+            <ul>
+              <li>Splunk Enterprise</li>
+              <li>Splunk Universal Forwarder</li>
+              <li>Ubuntu Server</li>
+              <li>Kali Linux</li>
+              <li>Windows 10</li>
+              <li>VirtualBox</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="modal-card">
+            <h4>📋 Methods</h4>
+            <ul>
+              <li>Forwarded Windows Event Logs and Ubuntu authentication logs into Splunk.</li>
+              <li>Created SPL detection rules to identify SSH brute-force attempts, privilege escalation, and network reconnaissance.</li>
+              <li>Configured scheduled alerts and investigated triggered security events.</li>
+              <li>Designed interactive SOC dashboards using tables, bar charts, pie charts, and statistical visualizations.</li>
+              <li>Mapped detections to the MITRE ATT&CK framework and documented incidents using professional incident reports.</li>
+            </ul>
+          </div>
+          <div class="modal-card">
+            <h4>📌 Output</h4>
+            <ul>
+              <li>End-to-end SOC monitoring environment using Splunk Enterprise.</li>
+              <li>Custom SPL detection rules and automated security alerts.</li>
+              <li>Interactive dashboards for attack visualization and log analysis.</li>
+              <li>Incident reports documenting attack timelines, evidence, impact, and remediation.</li>
+              <li>Hands-on experience with SIEM monitoring, threat detection, and incident investigation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const lines = [
+      "YOU ARE NOW ENTERING YUGMA'S PORTFOLIO...🔐"
+    ];
+
+    let i = 0;
+    function typeLine() {
+      const el = document.querySelector('.boot-text');
+      el.textContent = '';
+      const text = lines[i];
+      let j = 0;
+      const typer = setInterval(() => {
+        el.textContent = text.slice(0, j++);
+        if (j > text.length) {
+          clearInterval(typer);
+          i++;
+          if (i < lines.length) {
+            setTimeout(typeLine, 700);
+          } else {
+            setTimeout(() => {
+              document.body.classList.add('loaded');
+              initOnLoadAnimations();
+            }, 700);
+          }
+        }
+      }, 60);
+    }
+    window.addEventListener('load', typeLine);
+  </script>
+  <script>
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+  </script>
+  <!-- mobile warning -->
+  <script>
+    const messages = [
+      "🚀 For the smoothest ride, please view this portfolio on a computer.(Mobile devices may feel a little jet lag ✈️)",
+      "⚡ Optimized for desktop viewing: Some animations and layouts may not perform smoothly on mobile.For the best experience, please open on a computer",
+      "Heads up! 📱 This portfolio likes big screens better. For the smoothest ride, hop onto a computer",
+      "💻 Optimized for desktop viewing. Some layouts and animations may not perform smoothly on mobile devices",
+      "This portfolio is a bit camera‑shy on mobile 📱. It performs its best on desktop!",
+      "Small screens, big lag. Big screens, smooth flow ✨",
+      "Mobile gives you a sneak peek. Desktop gives you the full experience 🚀",
+      "On mobile, it's shy. On desktop, it shines 🌟"
+    ];
+
+    let index = 0;
+    const textEl = document.getElementById("mobileWarningText");
+
+    function updateMessage() {
+      textEl.style.opacity = 0;
+      setTimeout(() => {
+        textEl.textContent = messages[index];
+        textEl.style.opacity = 1;
+        index = (index + 1) % messages.length;
+      }, 800);
+    }
+
+    updateMessage();
+    setInterval(updateMessage, 5000);
+  </script>
+
+</body>
+</html>
